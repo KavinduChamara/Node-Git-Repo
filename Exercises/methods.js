@@ -19,6 +19,9 @@ methods.sum=function(a,b) {
 	return a+b;
 }
 
-
+methods.mul=function(a,b) {
+    output=a*b;
+    return output;
+}
 
 exports.data=methods;
